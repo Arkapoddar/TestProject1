@@ -10,7 +10,7 @@ list_of_state=list(final_df["State"].unique())
 list_of_state.insert(0,"Overall India")
 
 
-st.sidebar.title("India-Data-Visualisation")
+st.sidebar.title("India-Data-Visualisation-test")
 select_one=st.sidebar.selectbox("Select A State",list_of_state)
 primary_one=st.sidebar.selectbox("Select primary parameter",sorted(final_df.columns[5:]))
 secondary_one=st.sidebar.selectbox("Select secendory parameter",sorted(final_df.columns[5:]))
